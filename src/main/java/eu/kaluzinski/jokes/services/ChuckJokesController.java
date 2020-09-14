@@ -15,7 +15,7 @@ public class ChuckJokesController {
 
     @RequestMapping("/joke")
     public String getChuckJoke(Model model) {
-        model.addAttribute("jokes", chuckNorrisQuotesService.getQuote());
+        model.addAttribute("joke", chuckNorrisQuotesService.getQuote());
         return "joke";
     }
 

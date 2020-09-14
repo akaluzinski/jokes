@@ -1,9 +1,9 @@
-<html lang="en">
-<head></head>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head><title>Jokes</title></head>
     <body>
-        <table>
-            test from file
-
-        </table>
+    <h1>Chuck Norris Jokes</h1>
+    <div>
+        <p th:text="${joke}"></p>
+    </div>
 </body>
 </html>
